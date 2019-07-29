@@ -10,3 +10,11 @@ substring can be used in to ways
 `echo "Hello World" | subst 2 5`
 
 and that's it folks!
+
+Installing:
+```
+git clone https://github.com/sombrastudios/substr.git 
+cd substr 
+cargo build --release
+cargo install --path .
+```
