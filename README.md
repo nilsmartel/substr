@@ -9,6 +9,10 @@ substring can be used in to ways
 ## Get letters 2 to 5 from your stdout
 `echo "Hello World" | subst 2 5`
 
+## You can get substr to work per line
+
+`ps -a | substr -n 5` 
+
 and that's it folks!
 
 Installing:
